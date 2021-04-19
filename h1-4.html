@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h1 style="color:Tomato;">Hello World! My name is Kim byeonghun</h1>
+
+<div class="row">
+  <div class="column" style="background-color:#fff;">
+    <h2>Column 1</h2>
+    <h2>HTML Image</h2>
+<img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
+    <p>Some text..This is any picture. This is a test article.This is any picture. This is a test article.This is any picture. This is a test article.This is any picture. This is a test article.</p>
+  </div>
+  <div class="column" style="background-color:#fff;">
+  <h3 style="color:Tomato;">Hello World</h3>
+    <h1>This is heading 1</h1>
+<hr>
+<p>This is some other text.</p>
+<hr>
+<p>This is some other text.</p>
+<hr>
+<p>This is some other text.</p>
+<hr>
+<p>This is some other text.</p>
+<hr>
+<p>This is some other text.</p>
+  </div>
+</div>
+
+</body>
+</html>
